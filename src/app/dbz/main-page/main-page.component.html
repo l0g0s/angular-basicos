@@ -1,26 +1,15 @@
 <h1>Dragon Ball Z</h1>
-<p>
-1 crear componente agregar
-2 de h3 a cierre form
-3 mover nuevo y metodo agregar
-4 @ Input personajes
-5 @ Input nuevo
-6 < a p p-agregar [nuevo]="nuevo"
-
-</p>
 <hr>
+
 <div class="row">
+
     <div class="col">
-        <app-personajes [personajes]="personajes">
-            
-        </app-personajes>
+        <app-personajes></app-personajes>
     </div>
 
     <div class="col">
-
-        <app-agregar [nuevo]="nuevo" [personajes]="personajes"></app-agregar>
-
+        <app-agregar [nuevo]="nuevo">
+        </app-agregar>
     </div>
-
 
 </div>
