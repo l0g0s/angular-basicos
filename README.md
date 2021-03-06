@@ -27,7 +27,9 @@ simply change port.
 # AngularCLI
 
 to create angularCLI app, execute:
-```ng new app-name```
+```
+ng new appName
+```
 - Enforce stricter type: `Y`
 - Angular routing: `N or Y` for easy work
 - Styles types: `CSS`
